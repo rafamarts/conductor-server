@@ -1,0 +1,21 @@
+[
+  {
+    "name": "upload_step_1",
+    "description": "Upload rec file",
+    "retryCount": 3,
+    "timeoutSeconds": 3600,
+    "timeoutPolicy": "TIME_OUT_WF",
+    "retryLogic": "FIXED",
+    "retryDelaySeconds": 30,
+    "responseTimeoutSeconds": 1200,
+    "concurrentExecLimit": 100,
+    "rateLimitFrequencyInSeconds": 60,
+    "rateLimitPerFrequency": 50,
+    "createdBy": "",
+    "inputKeys": [],
+    "outputKeys": [],
+    "inputTemplate": {},
+    "ownerEmail": "example@email.com",
+    "backoffScaleFactor": 1
+  }
+]
